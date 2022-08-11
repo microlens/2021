@@ -24,7 +24,7 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Run Gatsby
-        run: npm run publish
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push'
