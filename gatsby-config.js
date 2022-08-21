@@ -6,7 +6,7 @@ module.exports = {
     siteTitleAlt: `2021 | 📷 by Long Nhat Nguyen`,
     siteHeadline: `2021 | 📷 by Long Nhat Nguyen`,
     siteUrl: `https://retro90s.github.io/2021/`,
-    siteDescription: "📷 by Long Nhat Nguyen in 2021",
+    siteDescription: "Photos by Long Nhat Nguyen",
     siteLanguage: `en`,
     author: `@torn4dom4n`,
   },
