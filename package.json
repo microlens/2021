@@ -6,7 +6,6 @@
   "author": "Long Nhat Nguyen",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "serve": "gatsby serve",
