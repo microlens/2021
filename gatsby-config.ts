@@ -1,12 +1,13 @@
-module.exports = {
+import type { GatsbyConfig, PluginRef } from "gatsby"
+
+const config: GatsbyConfig = {
   siteMetadata: {
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
     siteTitle: `2021`,
-    siteTitleAlt: `2021 | 📷 by Long Nhat Nguyen`,
-    siteHeadline: `2021 | 📷 by Long Nhat Nguyen`,
+    siteTitleAlt: `2021 | Photos by Long Nhat Nguyen`,
+    siteHeadline: `2021 | Photos by Long Nhat Nguyen`,
     siteUrl: `https://microlens.github.io/2021`,
     siteDescription: "Photos by Long Nhat Nguyen",
-    siteImage: `/banner.jpg`,
+    siteImage: `/og-image.jpg`,
     author: `@torn4dom4n`,
   },
   trailingSlash: `never`,
@@ -29,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `2021 | 📷 by Long Nhat Nguyen`,
+        name: `2021 | Photos by Long Nhat Nguyen`,
         short_name: `2021`,
         description: `Photos by Long Nhat Nguyen`,
         start_url: `/`,
@@ -49,5 +50,7 @@ module.exports = {
         ],
       },
     },
-  ].filter(Boolean),
+  ].filter(Boolean) as Array<PluginRef>,
 }
+
+export default config
