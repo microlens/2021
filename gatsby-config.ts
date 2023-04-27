@@ -1,6 +1,7 @@
 import type { GatsbyConfig, PluginRef } from "gatsby"
 
 const config: GatsbyConfig = {
+  pathPrefix: `/2021`,
   siteMetadata: {
     siteTitle: `2021`,
     siteTitleAlt: `2021 | Photos by Long Nhat Nguyen`,
