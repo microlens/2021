@@ -1,14 +1,14 @@
 import type { GatsbyConfig, PluginRef } from "gatsby"
 
 const config: GatsbyConfig = {
-  pathPrefix: `/2021`,
   siteMetadata: {
     siteTitle: `2021`,
     siteTitleAlt: `2021 | Photos by Long Nhat Nguyen`,
     siteHeadline: `2021 | Photos by Long Nhat Nguyen`,
-    siteUrl: `https://microlens.github.io/2021`,
+    siteUrl: `https://microlens.github.io/2021/`,
     siteDescription: "Photos by Long Nhat Nguyen",
     siteImage: `/og-image.jpg`,
+    siteLanguage: `en`,
     author: `@torn4dom4n`,
   },
   trailingSlash: `never`,
